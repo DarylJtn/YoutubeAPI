@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  youtubeapi:
+    image: youtubeapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
